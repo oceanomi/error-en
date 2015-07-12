@@ -277,7 +277,7 @@ header {
     text-align: center;
     color: #b0b0b0;
     background-attachment: scroll;
-    background-image: url(../img/background.png);
+    background-image: url(./img/background.png);
     background-position: 10% 80%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
