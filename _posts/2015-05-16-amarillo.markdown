@@ -1,0 +1,11 @@
+---
+title: Sin título
+layout: default
+modal-id: 9
+date: 2015-05-16
+img: amarillo.jpg
+material: Acrílico sobre lienzo, fibra acrílica
+size: 80cm x 80cm
+text:
+
+---

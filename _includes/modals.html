@@ -14,23 +14,40 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="img/works/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.title }}">
+                            <p class="main-text">{{ post.content }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
+                                <li>
+                                    <strong>{{ post.size }}</strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
+                                <li>
+                                    {{ post.material }}
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
+                                <li><strong>
+                                  {% assign m = post.date | date: "%-m" %}
+                                  {% case m %}
+                                    {% when '1' %}Enero
+                                    {% when '2' %}Febrero
+                                    {% when '3' %}Marzo
+                                    {% when '4' %}Abril
+                                    {% when '5' %}Mayo
+                                    {% when '6' %}Junio
+                                    {% when '7' %}Julio
+                                    {% when '8' %}Agosto
+                                    {% when '9' %}Septiembre
+                                    {% when '10' %}Octubre
+                                    {% when '11' %}Noviembre
+                                    {% when '12' %}Diciembre
+                                  {% endcase %}
+                                  {{ post.date | date: "%Y" }}</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            {% if post.img-quantity %}
+                              {% for index in (1..post.img-quantity) %}
+                                <img src="img/works/{{ post.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive img-centered" alt="{{ post.title }}">
+                              {% endfor %}
+                            {% endif %}
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Volver</button>
                         </div>
                     </div>
                 </div>

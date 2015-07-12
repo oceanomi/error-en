@@ -1,0 +1,11 @@
+---
+title: Primavera nómade
+layout: default
+modal-id: 6
+date: 2015-03-21
+img: nomade.jpg
+material: Acrílico sobre lienzo, velcro, lana, fibra acrílica
+size: 100cm x 100cm
+text:
+
+---

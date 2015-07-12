@@ -1,0 +1,11 @@
+---
+title: Estanque
+layout: default
+modal-id: 4
+date: 2015-02-22
+img: estanque.jpg
+material: Acrílico sobre lienzo, lana, fibra acrílica, algodón, poliacrílico, raffia rayón
+size: 100cm x 100cm
+text:
+
+---

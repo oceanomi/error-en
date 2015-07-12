@@ -1,0 +1,11 @@
+---
+title: Sin título
+layout: default
+modal-id: 7
+date: 2015-04-06
+img: verde.jpg
+material: Acrílico sobre lienzo, fibra acrílica, alambre
+size: 100cm x 100cm
+text:
+
+---
