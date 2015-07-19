@@ -1,9 +1,11 @@
 ---
 title: Rabat
-layout: default
+layout: post
+permalink: works/rabat
 modal-id: 10
 date: 2015-05-24
 img: rabat.jpg
+img-quantity: 3
 material: Pigmento en polvo, acrílico sobre lienzo, fibra acrílica
 size: 100cm x 50cm
 text:

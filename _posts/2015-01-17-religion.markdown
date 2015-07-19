@@ -1,9 +1,11 @@
 ---
 title: Religión
-layout: default
+layout: post
+permalink : works/religion
 modal-id: 2
 date: 2015-01-17
 img: religion.jpg
+img-quantity: 3
 material: Acrílico sobre lienzo, fibra acrílica
 size: 100cm x 100cm
 text:

@@ -3,13 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p class="main-text">La aguja debe pasar por abajo pero va por arriba; es mejor que luego gire a la derecha pero a veces se olvida. <br>Choca contra la otra aguja, arrastra un poco de su lana hacia el territorio de enfrente: es una lucha. <br>El traspaso de material a veces viene con un sonido metálico, pero en general es silencioso y constante. <br>Ese ritmo repetitivo, que como una marea, va en busca de un error que dé respuesta al exterior. <br>Ir hacia al fondo a encontrar. <br>Venir de allí si hace falta. <br>Mostrarse: como yo ahora ante usted. <br>Desvestirse, que no es lo mismo que desnudarse. <br>Salir a pasear por el campo con los zapatos puestos en el pié equivocado. <br>Tener calor y sed y estar en el desierto. <br>Nadar en una bañadera. <br>No sacarse el jabón de los ojos. <br>Despertarse al mediodía. <br>Escuchar zumbidos de mosquitos todo el día. <br>Ser el fantasma de alguien. <br>Tomar el camino más corto. <br>No poder despedirse. <br>Siempre llegar a tiempo. <br>Temerle a la luz. <br>No tener hijos. <br>Tenerlos. <br>Ver un eclipse desde la luna. <br>Salir del túnel. <br>Entender mapas. <br>Dolor corporal y buena memoria. <br>No poder oler. <br>Jet lag. <br>10.000 kilómetros de distancia. <br>Bajar la vista. <br>Dormirse en el mar. <br>Ponerse a decir la verdad.</p>
+                    <p class="main-text">La aguja debe pasar por abajo pero va por arriba; es mejor que luego gire a la derecha pero a veces se olvida. Choca contra la otra aguja, arrastra un poco de su lana hacia el territorio de enfrente: es una lucha. <br>El traspaso de material a veces viene con un sonido metálico, pero en general es silencioso y constante. Ese ritmo repetitivo, que como una marea, va en busca de un error que dé respuesta al exterior. <br>Ir hacia al fondo a encontrar. Venir de allí si hace falta. Mostrarse: como yo ahora ante usted. Desvestirse, que no es lo mismo que desnudarse. Salir a pasear por el campo con los zapatos puestos en el pié equivocado. Tener calor y sed y estar en el desierto. Nadar en una bañadera. No sacarse el jabón de los ojos. Despertarse al mediodía. Escuchar zumbidos de mosquitos todo el día. Ser el fantasma de alguien. Tomar el camino más corto. No poder despedirse. Siempre llegar a tiempo. Temerle a la luz. No tener hijos. Tenerlos. Ver un eclipse desde la luna. Salir del túnel. Entender mapas. Dolor corporal y buena memoria. No poder oler. Jet lag. 10.000 kilómetros de distancia. Bajar la vista. Dormirse en el mar. <br>Ponerse a decir la verdad.</p>
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
+            {% assign sortedPosts = site.posts | sort: 'date' %}
+            {% for post in sortedPosts %}
                 <div class="col-md-4 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="{{ site.baseurl }}works/{{ post.img | replace:'.jpg','' }}/index.html" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>

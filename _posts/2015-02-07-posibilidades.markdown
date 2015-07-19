@@ -1,6 +1,7 @@
 ---
 title: Posibilidades (todos)
-layout: default
+layout: post
+permalink: works/posibilidades
 modal-id: 3
 date: 2015-02-07
 img: posibilidades.jpg

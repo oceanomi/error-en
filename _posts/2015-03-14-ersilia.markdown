@@ -1,6 +1,7 @@
 ---
 title: Ersilia
-layout: default
+layout: post
+permalink: works/ersilia
 modal-id: 5
 date: 2015-03-14
 img: ersilia.jpg

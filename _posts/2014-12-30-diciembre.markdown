@@ -1,6 +1,7 @@
 ---
 title: Diciembre
-layout: default
+layout: post
+permalink: works/diciembre
 modal-id: 1
 date: 2014-12-30
 img: diciembre.jpg
