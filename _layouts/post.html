@@ -10,7 +10,7 @@
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                      <a href="{{ site.baseurl }}index.html"<button type="button" class="btn btn-default pull-right">Volver</button></a>
+                      <a href="{{ site.baseurl }}index.html#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default pull-right">Volver</button></a>
                       <h2>{{ page.title }}</h2>
                       <hr class="star-primary">
                       <img src="{{ site.baseurl }}img/works/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.title }}">
@@ -46,12 +46,11 @@
                           <img src="{{ site.baseurl }}img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive img-centered" alt="{{ page.title }}">
                         {% endfor %}
                       {% endif %}
-                      <a href="{{ site.baseurl }}"<button type="button" class="btn btn-default">Volver</button></a>
+                      <a href="{{ site.baseurl }}#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default">Volver</button></a>
                   </div>
               </div>
           </div>
       </div>
-    {% include footer.html %}
     {% include js.html %}
 
     </body>
