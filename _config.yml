@@ -1,6 +1,7 @@
-url: https://oceanomi.github.io/error
+url: https://error.carolinapodesta.com/
 #baseurl: .
-baseurl: https://oceanomi.github.io/error/
+#baseurl: https://oceanomi.github.io/error/
+baseurl: https://error.carolinapodesta.com/
 
 # Site settings
 title: Error
