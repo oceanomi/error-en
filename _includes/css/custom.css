@@ -187,7 +187,7 @@ header a:hover {
 
 header {
     text-align: center;
-    /* color: #{{ site.color.secondary }}; */
+    color: #ff6635;
     background-attachment: scroll;
     background-image: url(./img/background-tile.png);
     background-position: 0% 0%;
@@ -209,14 +209,9 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: Courier, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     font-style: italic;
-    line-height: 15px;
-}
-
-header .intro-text .intro-lead-in .attribution {
-    font-size: 12px;
-    line-height: 22px;
+    line-height: 25px;
 }
 
 header .intro-text .intro-heading {
@@ -224,6 +219,7 @@ header .intro-text .intro-heading {
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
+    opacity: 0.65;
 }
 
 @media(min-width:768px) {
@@ -235,9 +231,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: Montserrat,Courier, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 14px;
+        font-size: 24px;
         font-style: italic;
-        line-height: 15px;
+        line-height: 25px;
     }
 
     header .intro-text .intro-heading {
