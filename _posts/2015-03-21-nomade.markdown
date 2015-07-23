@@ -8,6 +8,7 @@ img: nomade.jpg
 img-quantity: 3
 material: Acrílico sobre lienzo, velcro, lana, fibra acrílica
 size: 100cm x 100cm
-text:
 
 ---
+
+Esta pieza es intercambiable, de allí lo nómade: pedazos de abrojo adheridos al lienzo permiten cambiar los colores de lugar, según los antojos y el humor del día.
