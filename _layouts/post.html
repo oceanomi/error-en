@@ -41,8 +41,8 @@
                             {{ page.date | date: "%Y" }}</strong>
                           </li>
                       </ul>
-                      {% if page.img-quantity %}
-                        {% for index in (1..page.img-quantity) %}
+                      {% if page.img_quantity %}
+                        {% for index in (1..page.img_quantity) %}
                           <img src="{{ site.baseurl }}img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive img-centered" alt="{{ page.title }}">
                         {% endfor %}
                       {% endif %}
