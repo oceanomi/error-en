@@ -4,7 +4,7 @@ layout: post
 permalink: works/marrakech
 img: marrakech.jpg
 img_quantity: 3
-material: Acrílico sobre lienzo, led, algodón, galón de poliéster/viscosa, fibra acrílica
+material: Acrylico on canvas, led, cotton, polyester
 size: 90cm x 65cm
 
 ---

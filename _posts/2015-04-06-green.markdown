@@ -1,0 +1,10 @@
+---
+title: Untitled
+layout: post
+permalink: works/green
+img: verde.jpg
+img_quantity: 2
+material: Acrylic on canvas, acrylic fibre, wire
+size: 100cm x 100cm
+
+---

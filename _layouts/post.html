@@ -10,7 +10,7 @@
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                      <a href="{{ site.baseurl }}index.html#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default pull-right">Volver</button></a>
+                      <a href="{{ site.baseurl }}index.html#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default pull-right">Back</button></a>
                       <h2>{{ page.title }}</h2>
                       <hr class="star-primary">
                       <img src="{{ site.baseurl }}img/works/{{ page.img }}" class="img-responsive" alt="{{ page.title }}">
@@ -23,22 +23,7 @@
                               {{ page.material }}
                           </li>
                           <li><strong>
-                            {% assign m = page.date | date: "%-m" %}
-                            {% case m %}
-                              {% when '1' %}Enero
-                              {% when '2' %}Febrero
-                              {% when '3' %}Marzo
-                              {% when '4' %}Abril
-                              {% when '5' %}Mayo
-                              {% when '6' %}Junio
-                              {% when '7' %}Julio
-                              {% when '8' %}Agosto
-                              {% when '9' %}Septiembre
-                              {% when '10' %}Octubre
-                              {% when '11' %}Noviembre
-                              {% when '12' %}Diciembre
-                            {% endcase %}
-                            {{ page.date | date: "%Y" }}</strong>
+                            {{ page.date | date: "%B %Y" }}</strong>
                           </li>
                       </ul>
                       {% if page.img_quantity %}
@@ -46,7 +31,7 @@
                           <img src="{{ site.baseurl }}img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive" alt="{{ page.title }}">
                         {% endfor %}
                       {% endif %}
-                      <a href="{{ site.baseurl }}#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default">Volver</button></a>
+                      <a href="{{ site.baseurl }}#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default">Back</button></a>
                   </div>
               </div>
           </div>

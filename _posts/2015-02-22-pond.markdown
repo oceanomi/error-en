@@ -1,0 +1,10 @@
+---
+title: Pond
+layout: post
+permalink: works/pond
+img: estanque.jpg
+img_quantity: 3
+material: Acrylic on canvas, wool, acrylic fibre, cotton, polyacrylic, raffia rayon
+size: 100cm x 100cm
+
+---
