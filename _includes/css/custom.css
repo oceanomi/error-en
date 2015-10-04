@@ -200,6 +200,10 @@ header {
     /* -o-background-size: cover; */
 }
 
+header .language {
+    padding-top: 10px;
+}
+
 header .intro-text {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -212,6 +216,12 @@ header .intro-text .intro-lead-in {
     font-size: 24px;
     font-style: italic;
     line-height: 25px;
+}
+
+header .intro-lead-in a {
+    padding: 10px;
+    color: #eee;
+    background-color: #{{ site.color.secondary }};
 }
 
 header .intro-text .intro-heading {
