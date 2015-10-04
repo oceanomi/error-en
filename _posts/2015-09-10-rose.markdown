@@ -1,0 +1,10 @@
+---
+title: Rosé
+layout: post
+permalink: works/rose
+img: rose.jpg
+img_quantity: 3
+material: Acrylic on canvas, cotton, nylon
+size: 3 x 40cm x 40cm
+
+---
