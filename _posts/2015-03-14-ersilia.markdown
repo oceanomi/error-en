@@ -5,7 +5,7 @@ permalink: works/ersilia
 img: ersilia.jpg
 img_quantity: 3
 material: Acrylic on canvas, acrylic fibre, cotton
-size: 3 x 90cm x 30cm (tríptico)
+size: 3 x 90cm x 30cm
 
 ---
 
