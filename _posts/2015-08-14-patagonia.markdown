@@ -1,5 +1,5 @@
 ---
-title: Patagonia
+title: In Patagonia
 layout: post
 permalink: works/patagonia
 img: patagonia.jpg

@@ -4,7 +4,7 @@ layout: post
 permalink: works/yellow
 img: amarillo.jpg
 img_quantity: 1
-material: Acrylico on canvas, acrylic fibre
+material: Acrylic on canvas, acrylic fibre
 size: 80cm x 80cm
 
 ---
