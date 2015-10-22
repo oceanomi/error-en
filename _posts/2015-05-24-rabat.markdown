@@ -4,7 +4,7 @@ layout: post
 permalink: works/rabat
 img: rabat.jpg
 img_quantity: 3
-material: Pigment powder, acrylic fibre
+material: Pigment powder, acrylic on canvas, acrylic fibre
 size: 100cm x 50cm
 
 ---
