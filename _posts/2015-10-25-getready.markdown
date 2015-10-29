@@ -1,0 +1,10 @@
+---
+title: Get ready
+layout: post
+permalink: works/getready
+img: getready.jpg
+img_quantity: 5
+material: Acrylic on canvas, cotton, acrylic fibre
+size: 90cm x 65cm
+
+---
