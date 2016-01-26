@@ -11,7 +11,8 @@
         <div class="container">
             <div class="row mail-link">
                 <div class="col-md-8">
-                    <a href="mailto:{{ page.mail }}">{{ page.mail }}</a>
+                    <h3>{{ page.heading }}</h3>
+                    <h3 class="thin">{{ page.sub-heading }}</h3>
                 </div>
             </div>
             <div class="row">
@@ -30,5 +31,6 @@
     </section>
     {% include js.html %}
 
+    {% include footer.html %}
     </body>
 </html>

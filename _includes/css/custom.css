@@ -64,6 +64,10 @@ h6 {
     font-weight: 700;
 }
 
+h3.thin {
+    font-weight: 400;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -200,13 +204,31 @@ header {
     /* -o-background-size: cover; */
 }
 
+header .container {
+    background-attachment: scroll;
+    background-image: url(./img/background-tile-off.png);
+    background-position: 126px 126px;
+    background-repeat: no-repeat;
+}
+
+header .links li {
+    padding: 10px 10px 0;
+    font-size: 24px;
+    background-color: #f7f7f7;
+}
+
+header .links li:hover {
+    background-color: #e7e7e7;
+}
+
 header .language {
     padding-top: 10px;
+    font-weight: bold;
 }
 
 header .intro-text {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: left;
 }
 
@@ -234,8 +256,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     header .intro-text .intro-lead-in {
@@ -255,9 +277,14 @@ header .intro-text .intro-heading {
 }
 
 .main-text {
-    font-size: 1.2em;
+    font-size: 14px;
     margin-bottom: 40px;
     text-align: justify;
+    font-family: sans-serif;
+}
+
+#portfolio .main-text {
+  padding-bottom: 25px;
 }
 
 section {
@@ -292,7 +319,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 60px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -372,15 +399,25 @@ section h3.section-subheading {
 }
 
 footer {
-    padding: 25px 0;
+    background-color: #f7f7f7;
+}
+
+footer .end {
+    padding: 25px 0 0;
     text-align: center;
+    background-attachment: scroll;
+    background-image: url(./img/footer-gradient.png);
+    background-position: 0% 0%;
+    background-repeat: repeat-x;
+    height: 26px;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat;
     line-height: 40px;
+    float: right;
 }
 
 footer ul.quicklinks {

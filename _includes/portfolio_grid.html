@@ -3,14 +3,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
+                  <h3 class="thin">Mortal. Imperfect. With doubts.</h3>
                     <p class="main-text">
-                    The needle goes under not over. It should then turn right but sometimes forgets. It hits the other needle, pulling a little wool into opposition territory, like a fight. <br>The transfer of material is sometimes a metallic click, but mostly it's quiet and steady. This repetitive rhythm, like a tide. Searching inwards for the mistake that responds to the world outside. Go deep to find it. Come back again if you need to. Show yourself: as I am now revealing myself to you. Undress, which is not the same as revealing yourself. Walk through the countryside with shoes on the wrong feet. Be hot and thirsty in the desert. Swim in a bathtub. Don't wash the soap out of your eyes. Wake up at noon. Hear mosquitos buzz through the day. Be someone's ghost. Take the shortcut. Don't let yourself say goodbye. Always be on time. Fear the light. Don't have children. Have them. Watch an eclipse from the moon. Get out of the tunnel. Read maps. Your body aches, your memory is good. Unable to smell. Jet lag. 10,000 kilometers away. Look down. Sleep in the sea. Get ready to tell the truth.
+                    The needle goes under not over. It should then turn right but sometimes forgets. It hits the other needle, pulling a little wool into opposition territory, like a fight. The transfer of material is sometimes a metallic click, but mostly it's quiet and steady. This repetitive rhythm, like a tide. Searching inwards for the mistake that responds to the world outside. Go deep to find it. Come back again if you need to. Show yourself: as I am now revealing myself to you. Undress, which is not the same as revealing yourself. Walk through the countryside with shoes on the wrong feet. Be hot and thirsty in the desert. Swim in a bathtub. Don't wash the soap out of your eyes. Wake up at noon. Hear mosquitos buzz through the day. Be someone's ghost. Take the shortcut. Don't let yourself say goodbye. Always be on time. Fear the light. Don't have children. Have them. Watch an eclipse from the moon. Get out of the tunnel. Read maps. Your body aches, your memory is good. Unable to smell. Jet lag. 10,000 kilometers away. Look down. Sleep in the sea. Get ready to tell the truth.
                 </div>
             </div>
             <div class="row">
             {% assign sortedPosts = site.posts | sort: 'date' %}
             {% for post in sortedPosts %}
-                <div class="col-md-4 portfolio-item">
+                <div class="col-md-8 portfolio-item">
                     <a id="{{  post.img | replace:'.jpg','' }}" href="{{ site.baseurl }}{{ post.permalink }}/index.html" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -20,11 +21,12 @@
                         <img src="img/works/{{ post.img | replace:'.jpg','-thumbnail.jpg' }}" class="img-responsive" alt="{{ post.title }}">
                     </a>
                 </div>
-                <div class="col-md-8 portfolio-item">
+                <div class="col-md-4 portfolio-item">
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.material }}</p>
                         <p class="text-muted"><strong>{{ post.size }}</strong></p>
+                        <p class="text-muted"><strong>{{ post.content | replace:'<!--break-->','...<!--break-->' | split:'<!--break-->' | first }}</strong></p>
                     </div>
                 </div>
                 <div class="clearfix"></div>

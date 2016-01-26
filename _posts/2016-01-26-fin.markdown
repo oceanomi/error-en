@@ -1,0 +1,10 @@
+---
+title: Fin y principio
+layout: post
+permalink: works/fin
+img: en_construccion.png
+img_quantity: 0
+material:
+size:
+
+---
