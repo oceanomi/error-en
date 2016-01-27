@@ -1,8 +1,8 @@
 ---
-title: Fin y principio
+title: End and beginning
 layout: post
 permalink: works/fin
-img: en_construccion.png
+img: in_construction.png
 img_quantity: 0
 material:
 size:
