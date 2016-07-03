@@ -12,7 +12,7 @@
             {% assign sortedPosts = site.posts | sort: 'date' %}
             {% for post in sortedPosts %}
                 <div class="col-md-8 portfolio-item">
-                    <a id="{{  post.img | replace:'.jpg','' }}" href="{{ site.baseurl }}{{ post.permalink }}/index.html" class="portfolio-link">
+                    <a id="{{  post.img | replace:'.jpg','' }}" href="{{ site.baseurl }}{{ post.permalink }}.html" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
