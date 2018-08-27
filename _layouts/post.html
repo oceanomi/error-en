@@ -13,7 +13,7 @@
                       <a href="{{ site.baseurl }}index.html#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default pull-right">Back</button></a>
                       <h2>{{ page.title }}</h2>
                       <hr class="star-primary">
-                      <img src="{{ site.baseurl }}img/works/{{ page.img }}" class="img-responsive" alt="{{ page.title }}">
+                      <img src="/img/works/{{ page.img }}" class="img-responsive" alt="{{ page.title }}">
                       <p class="main-text">{{ page.content }}</p>
                       <ul class="list-inline item-details">
                           <li>
@@ -28,10 +28,10 @@
                       </ul>
                       {% if page.img_quantity %}
                         {% for index in (1..page.img_quantity) %}
-                          <img src="{{ site.baseurl }}img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive" alt="{{ page.title }}">
+                          <img src="/img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive" alt="{{ page.title }}">
                         {% endfor %}
                       {% endif %}
-                      <a href="{{ site.baseurl }}#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default">Back</button></a>
+                      <a href="/#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default">Back</button></a>
                   </div>
               </div>
           </div>

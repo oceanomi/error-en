@@ -1,7 +1,4 @@
 url: http://error-en.carolinapodesta.com/
-#baseurl: .
-#baseurl: http://oceanomi.github.io/error/
-baseurl: http://error-en.carolinapodesta.com/
 
 # Site settings
 title: Error
@@ -13,11 +10,6 @@ color:
   primary: 094feb
   secondary: 147765
   secondary-dark: 333
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-#social:
-#  - title: twitter
-#    url: http://twitter.com/jekyllrb
 
 # Build settings
 markdown: kramdown
