@@ -6,5 +6,6 @@ img: alter.jpg
 img_quantity: 5
 material: Acrylic on canvas, metal, steel wire, adhesive tape
 size: 50cm x 50cm
+series: Mortal. Imperfect. With doubts.
 
 ---

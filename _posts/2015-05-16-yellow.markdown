@@ -6,5 +6,6 @@ img: amarillo.jpg
 img_quantity: 1
 material: Acrylic on canvas, acrylic fibre
 size: 80cm x 80cm
+series: Mortal. Imperfect. With doubts.
 
 ---

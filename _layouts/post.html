@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
-
-    <body id="page-top" class="index">
-
-      <div class="container post">
-          <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                      <a href="{{ site.baseurl }}index.html#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default pull-right">Back</button></a>
-                      <h2>{{ page.title }}</h2>
-                      <hr class="star-primary">
-                      <img src="/img/works/{{ page.img }}" class="img-responsive" alt="{{ page.title }}">
-                      <p class="main-text">{{ page.content }}</p>
-                      <ul class="list-inline item-details">
-                          <li>
-                              <strong>{{ page.size }}</strong>
-                          </li>
-                          <li>
-                              {{ page.material }}
-                          </li>
-                          <li><strong>
-                            {{ page.date | date: "%B %Y" }}</strong>
-                          </li>
-                      </ul>
-                      {% if page.img_quantity %}
-                        {% for index in (1..page.img_quantity) %}
-                          <img src="/img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive" alt="{{ page.title }}">
-                        {% endfor %}
-                      {% endif %}
-                      <a href="/#{{ page.img | replace:'.jpg','' }}"<button type="button" class="btn btn-default">Back</button></a>
-                  </div>
-              </div>
-          </div>
-      </div>
-    {% include js.html %}
-
-    </body>
+  <body>
+    <div class="post">
+      <a href="/#{{ page.img | replace:'.jpg','' }}"><button>Back</button></a>
+      <h2>{{ page.title }}</h2>
+      <ul class="item-details">
+        <li>
+          <strong>{{ page.size }}</strong>
+        </li>
+        <li>
+          {{ page.material }}
+        </li>
+        <li>
+          <strong>{{ page.date | date: "%Y" }}</strong>
+        </li>
+      </ul>
+      <img src="/img/works/{{ page.img }}" class="img-responsive" alt="{{ page.title }}">
+      <p class="main-text">{{ page.content }}</p>
+      {% if page.img_quantity %}
+        {% for index in (1..page.img_quantity) %}
+          <img src="/img/works/{{ page.img | replace:'.jpg','' }}{{ index }}.jpg" class="img-responsive" alt="{{ page.title }}">
+        {% endfor %}
+      {% endif %}
+      <a href="/#{{ page.img | replace:'.jpg','' }}"><button>Back</button></a>
+    </div>
+  </body>
 </html>

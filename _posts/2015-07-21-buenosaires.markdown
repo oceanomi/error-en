@@ -6,5 +6,6 @@ img: bsas.jpg
 img_quantity: 5
 material: Acrylic on canvas, wool
 size: 2 x 100cm x 100cm
+series: Mortal. Imperfect. With doubts.
 
 ---

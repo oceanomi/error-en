@@ -6,5 +6,6 @@ img: pride.jpg
 img_quantity: 3
 material: Acrylic on canvas, cotton, nylon
 size: 100cm x 50cm
+series: Mortal. Imperfect. With doubts.
 
 ---

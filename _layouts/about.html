@@ -1,36 +1,20 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
-
-    <body id="page-top" class="index">
-
-<!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row mail-link">
-                <div class="col-md-8">
-                    <h3>{{ page.heading }}</h3>
-                    <h3 class="thin">{{ page.sub-heading }}</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                  <p class="main-text">
-                    {{ page.content }}
-                  </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <a href="/index.html"><button type="button" class="btn btn-default">Back</button></a>
-                </div>
-            </div>
-        </div>
+  <body>
+    <!-- About Section -->
+    <section class="about">
+      <h2>{{ page.heading }}</h2>
+      {{ page.content }}
+      <ul>
+        {% for item in page.series %}
+        <li>
+          <h3>{{ item.date }}: {{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      <a href="/index.html"><button>Back</button></a>
     </section>
-    {% include js.html %}
-
-    {% include footer.html %}
-    </body>
+  </body>
 </html>
