@@ -1,0 +1,12 @@
+---
+title: 88%
+layout: post
+permalink: works/88
+img: 88.jpg
+img_quantity: 2
+material: Fabric on canvas, acrylic fibre, ink.
+size: 50cm x 70cm
+series: The French
+
+---
+

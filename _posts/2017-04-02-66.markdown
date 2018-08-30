@@ -1,0 +1,12 @@
+---
+title: 66%
+layout: post
+permalink: works/66
+img: 66.jpg
+img_quantity: 3
+material: Fabric on canvas, acrylic fibre, ink.
+size: 50cm x 70cm
+series: The French
+
+---
+

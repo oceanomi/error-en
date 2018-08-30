@@ -1,0 +1,11 @@
+---
+title: Veil
+layout: post
+permalink: works/veil
+img: veil.jpg
+img_quantity: 3
+material: Fabric on canvas, acrylic fibre
+size: 73cm x 93cm
+series: Mortal. Imperfect. With doubts.
+
+---

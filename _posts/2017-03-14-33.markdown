@@ -1,0 +1,11 @@
+---
+title: 33%
+layout: post
+permalink: works/33
+img: 33.jpg
+img_quantity: 4
+material: Fabric on canvas, acrylic fibre, ink
+size: 50cm x 70cm
+series: The French
+
+---

@@ -1,0 +1,12 @@
+---
+title: North
+layout: post
+permalink: works/north
+img: north.jpg
+img_quantity: 5
+material: Acrylic on canvas, wool, acrylic fibre, LED lights.
+size: 80cm x 80cm
+series: Location
+
+---
+
