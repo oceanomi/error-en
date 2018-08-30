@@ -5,7 +5,7 @@ permalink: works/centre
 img: centre.jpg
 img_quantity: 5
 material: Acrylic on canvas, acrylic fibre, cotton.
-size: 80cm x 80cm
+size: 60cm x 80cm
 series: Location
 
 ---
