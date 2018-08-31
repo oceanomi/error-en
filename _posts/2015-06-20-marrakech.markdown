@@ -1,5 +1,5 @@
 ---
-title: Marrakech
+title: Marrakesh
 layout: post
 permalink: works/marrakech
 img: marrakech.jpg
