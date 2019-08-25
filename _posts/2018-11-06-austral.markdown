@@ -1,0 +1,11 @@
+---
+title: Austral
+layout: post
+permalink: works/austral
+img: austral.jpg
+img_quantity: 4
+material: Acrylic on canvas, wool, acrylic fibre, cotton.
+size: 80cm x 80cm
+series: Location
+
+---
