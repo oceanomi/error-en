@@ -2,7 +2,7 @@
 title: East of somewhere
 layout: post
 permalink: works/east
-img: north.jpg
+img: east.jpg
 img_quantity: 5
 material: Acrylic on canvas, wool, acrylic fibre, cotton.
 size: 80cm x 60cm
